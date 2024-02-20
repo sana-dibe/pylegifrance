@@ -43,6 +43,8 @@ class LegiHandler:
         self.client_id = None
         self.client_secret = None
         self.token = ''
+        self.time_token =  0
+        self.expires_in = 0
         self.token_url = 'https://oauth.piste.gouv.fr/api/oauth/token'
         self.api_url = 'https://api.piste.gouv.fr/dila/legifrance/lf-engine-app/'
 
